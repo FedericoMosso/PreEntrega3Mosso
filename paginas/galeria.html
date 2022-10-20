@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Federico Mosso</title>
+  </head>
+  <body>
+    <!-- Inicio del Menu -->
+            <!-- icono -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="../index.html">
+      <img class="logotipo" src="../imagenes/nofondo.png" alt="Logo Web">
+      <span class="text-warning">Federico Mosso</span>
+      <div class="container-fluid"></div>
+      </a>
+
+
+      <!-- boton del menu -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- elementos del menu  -->
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="../paginas/proyecto.html">Proyecto</a></li>
+            <li class="nav-item"><a class="nav-link" href="../paginas/nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="../paginas/galeria.html">Galería</a></li>
+            <li class="nav-item"><a class="nav-link" href="../paginas/contacto.html">Contacto</a></li>
+          </ul>
+          <hr class="text-white-50">
+
+          <!-- Enlaces redes sociales -->
+
+          <ul class="navbar-nav flex-row flex-wrap text-light">
+            <li class="nav-item col-6 col-md-auto p-3">
+              <a href="https://www.facebook.com/">
+              <i class="bi bi-facebook text-light"></i>
+              <small class="text-light d-md-none ms-2">Facebook</small>
+              </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto p-3">
+              <a href="https://twitter.com/home">
+              <i class="bi bi-twitter text-light"></i>
+              <small class="text-light d-md-none ms-2">Twitter</small>
+              </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto p-3">
+              <a href="https://www.instagram.com/">
+              <i class="bi bi-instagram text-light"></i>
+              <small class="text-light d-md-none ms-2">Instagram</small>
+              </a>
+            </li>
+            <li class="nav-item col-6 col-md-auto p-3">
+              <a href="https://www.whatsapp.com/">
+              <i class="bi bi-whatsapp text-light"></i>
+              <small class="text-light d-md-none ms-2">Whatsapp</small>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Boton de informacion-->
+          <form class="d-flex"></form>
+          <button class="btn btn-outline-warning d-none d-md-inline-block" type="submit">Información</button>
+
+        </div>
+
+      </div>
+    </nav>
+
+
+      <!-- Carousel -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../imagenes/paisaje.jpg" class="d-block w-100" alt="slider 01">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>titulo 01</h4>
+              <p>parrafo 01</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../imagenes/paisaje.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Etiqueta de la segunda diapositiva</h4>
+              <p>Algún contenido placeholder representativo para la segunda diapositiva.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../imagenes/paisaje.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Etiqueta de la tercera diapositiva</h4>
+              <p>Algún contenido placeholder representativo para la tercera diapositiva.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+      <!-- Galeria -->
+      <main>
+        <section class="espacio">
+          <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 text-center">
+                    <img class="img-fluid shadow-lg" src="../imagenes/paisaje2.jpg" alt="paisaje 2">
+                    <h5>Titulo 01</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At illo odit nobis architecto eius corporis sapiente atque, deserunt nulla labore quas dolore assumenda amet sequi eligendi expedita, repellat quidem! A.</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <img class="img-fluid shadow-lg" src="../imagenes/paisaje2.jpg" alt="paisaje 2">
+                    <h5>Titulo 02</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At illo odit nobis architecto eius corporis sapiente atque, deserunt nulla labore quas dolore assumenda amet sequi eligendi expedita, repellat quidem! A.</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <img class="img-fluid shadow-lg" src="../imagenes/paisaje2.jpg" alt="paisaje 2">
+                    <h5>Titulo 03</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At illo odit nobis architecto eius corporis sapiente atque, deserunt nulla labore quas dolore assumenda amet sequi eligendi expedita, repellat quidem! A.</p>
+                </div>
+                
+                <div class="col-12 col-sm-4 text-center">
+                    <img class="img-fluid shadow-lg" src="../imagenes/paisaje2.jpg" alt="paisaje 2">
+                    <h5>Titulo 04</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At illo odit nobis architecto eius corporis sapiente atque, deserunt nulla labore quas dolore assumenda amet sequi eligendi expedita, repellat quidem! A.</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <img class="img-fluid shadow-lg" src="../imagenes/paisaje2.jpg" alt="paisaje 2">
+                    <h5>Titulo 05</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At illo odit nobis architecto eius corporis sapiente atque, deserunt nulla labore quas dolore assumenda amet sequi eligendi expedita, repellat quidem! A.</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <img class="img-fluid shadow-lg" src="../imagenes/paisaje2.jpg" alt="paisaje 2">
+                    <h5>Titulo 06</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At illo odit nobis architecto eius corporis sapiente atque, deserunt nulla labore quas dolore assumenda amet sequi eligendi expedita, repellat quidem! A.</p>
+                </div>
+                
+                <div class="col-12 col-sm-4 text-center">
+                    <img class="img-fluid shadow-lg" src="../imagenes/paisaje2.jpg" alt="paisaje 2">
+                    <h5>Titulo 07</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At illo odit nobis architecto eius corporis sapiente atque, deserunt nulla labore quas dolore assumenda amet sequi eligendi expedita, repellat quidem! A.</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <img class="img-fluid shadow-lg" src="../imagenes/paisaje2.jpg" alt="paisaje 2">
+                    <h5>Titulo 08</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At illo odit nobis architecto eius corporis sapiente atque, deserunt nulla labore quas dolore assumenda amet sequi eligendi expedita, repellat quidem! A.</p>
+                </div>
+                <div class="col-12 col-sm-4 text-center">
+                    <img class="img-fluid shadow-lg" src="../imagenes/paisaje2.jpg" alt="paisaje 2">
+                    <h5>Titulo 09</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At illo odit nobis architecto eius corporis sapiente atque, deserunt nulla labore quas dolore assumenda amet sequi eligendi expedita, repellat quidem! A.</p>
+                </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      
+          <!-- Grilla -->
+    <div class="container-fluid bg-primary">
+      <div class="row">
+        <div class="col-md border border-white border-5 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet culpa tempore est adipisci quidem, ducimus saepe quia voluptates maxime cum obcaecati suscipit praesentium accusantium eius illo quod quibusdam non? Nemo?</div>
+        <div class="col-md border border-white border-5 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui harum ex eum, neque culpa praesentium tempore reiciendis quos deleniti nulla quis explicabo tenetur, quisquam, mollitia aut adipisci doloribus vel quod!</div>
+        <div class="col-md border border-white border-5 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui harum ex eum, neque culpa praesentium tempore reiciendis quos deleniti nulla quis explicabo tenetur, quisquam, mollitia aut adipisci doloribus vel quod!</div>
+      </div>
+    </div>
+
+    <footer>
+      <img class="logotipo-footer" src="../imagenes/nofondo.png" alt="logotipo">
+          <a class="footer-redes" href="https://www.facebook.com/">
+          <i class="bi bi-facebook text-light"></i>
+          <small class="text-light d-md-none ms-2">Facebook</small>
+          </a>
+          <a class="footer-redes" href="https://twitter.com/home">
+          <i class="bi bi-twitter text-light"></i>
+          <small class="text-light d-md-none ms-2">Twitter</small>
+          </a>
+          <a class="footer-redes" href="https://www.instagram.com/">
+          <i class="bi bi-instagram text-light"></i>
+          <small class="text-light d-md-none ms-2">Instagram</small>
+          </a>
+          <a class="footer-redes" href="https://www.whatsapp.com/">
+          <i class="bi bi-whatsapp text-light"></i>
+          <small class="text-light d-md-none ms-2">Whatsapp</small>
+          </a>
+
+      <h2>Federico Mosso Web</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Unde commodi adipisci quia praesentium qui earum, assumenda aut <br> saepe nisi quidem nihil magnam, tenetur quaerat tempora</p>
+   </footer>
+
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
