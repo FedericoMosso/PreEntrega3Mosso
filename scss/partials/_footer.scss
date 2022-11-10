@@ -1,0 +1,25 @@
+/*footer*/
+
+footer{
+    background-color:black;
+    padding: 100px 0;
+    text-align: center;
+
+    .footer-redes{
+        padding: 0 15px;
+
+        footer .logotipo-footer{
+            width: 200px;
+            margin-bottom: 20px;
+
+            footer h2{
+                color: antiquewhite;
+
+                footer p{
+                    color: antiquewhite;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

@@ -1,27 +1,27 @@
-
+/* header */
 /* logotipo*/
 
-.logotipo{
+/*.logotipo{
     width: 100px;
     height: auto;
     
 }
 
 /*boton del menu*/
-.navbar-toggler{
+/*.navbar-toggler{
     margin: 15px;
-}
+}*/
 
 /* elementos del menu*/
-.nav-item{
+/*.nav-item{
     margin: 10px;
-}
+}*/
 
-.espacio{
+/*.espacio{
     padding: 10px 0;
-}
+}*/
 
-footer{
+/*footer{
     background-color:black;
     padding: 100px 0;
     text-align: center;
@@ -43,24 +43,21 @@ footer h2{
 footer p{
     color: antiquewhite;
     font-size: 14px;
-}
+}*/
 
-/*titulo del mapa*/
-
+/*titulo del mapa
 .mapa-tittle{
     margin-top: 30px;
     text-align: center;
     
+}*/
 
-}
-
-/*mapa*/
-
+/*mapa
 .mapa{
     border: 2px solid burlywood;
-}
+}*/
 
-/*galeria imagenes*/
+/*galeria imagenes
 #galeria .col-lg-4{
     margin: 0 !important;
     padding: 25px;
@@ -75,4 +72,4 @@ footer p{
 
 #galeria img:hover {
     border: 5px solid #f7f7f7;
-}
+}*/

@@ -1,84 +1,18 @@
+/* IMPORTS */
 
-/* logotipo*/
+/* MISC*/
 
-.logotipo{
-    width: 100px;
-    height: auto;
-    
-}
-
-/*boton del menu*/
-.navbar-toggler{
-    margin: 15px;
-}
-
-/* elementos del menu*/
-.nav-item{
-    margin: 10px;
-}
-
-.espacio{
-    padding: 10px 0;
-}
-
-/*footer*/
-footer{
-    background-color:black;
-    padding: 100px 0;
-    text-align: center;
-
-    .footer-redes{
-        padding: 0 15px;
-
-        footer .logotipo-footer{
-            width: 200px;
-            margin-bottom: 20px;
-
-            footer h2{
-                color: antiquewhite;
-
-                footer p{
-                    color: antiquewhite;
-                    font-size: 14px;
-                }
-            }
-
-        }
-    }
-}
+@import './misc/variables';
 
 
+//* PARTIALS */
 
-/*titulo del mapa*/
-
-.mapa-tittle{
-    margin-top: 30px;
-    text-align: center;
-    
-
-}
-
-/*mapa*/
-
-.mapa{
-    border: 2px solid burlywood;
-}
-
-/*galeria imagenes*/
-#galeria .col-lg-4{
-    margin: 0 !important;
-    padding: 25px;
-
-    #galeria img {
-        width: 100%;
-        height: 300px;
-        &:hover{
-            border: 5px solid #f7f7f7;
-        }
-    }
-
-    
-    
-}
+@import './partials/header';
+@import './partials/footer';
 
 
+// *PAGES */
+
+@import './pages/index';
+@import './pages/galeria';
+@import './pages/contacto';

@@ -1,3 +1,9 @@
+/* IMPORTS */
+/* MISC*/
+/* VARIABLES */
+/* font sizes */
+/* spacings */
+/*header*/
 /* logotipo*/
 .logotipo {
   width: 100px;
@@ -30,15 +36,6 @@ footer {
           color: antiquewhite;
           font-size: 14px; }
 
-/*titulo del mapa*/
-.mapa-tittle {
-  margin-top: 30px;
-  text-align: center; }
-
-/*mapa*/
-.mapa {
-  border: 2px solid burlywood; }
-
 /*galeria imagenes*/
 #galeria .col-lg-4 {
   margin: 0 !important;
@@ -48,3 +45,12 @@ footer {
     height: 300px; }
     #galeria .col-lg-4 #galeria img:hover {
       border: 5px solid #f7f7f7; }
+
+/*titulo del mapa*/
+.mapa-tittle {
+  margin-top: 30px;
+  text-align: center; }
+
+/*mapa*/
+.mapa {
+  border: 2px solid burlywood; }
