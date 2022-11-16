@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FedericoMosso/repo44585.git"
+    "url": "git+https://github.com/FedericoMosso/PreEntrega3Mosso.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FedericoMosso/repo44585/issues"
+    "url": "https://github.com/FedericoMosso/PreEntrega3Mosso/issues"
   },
-  "homepage": "https://github.com/FedericoMosso/repo44585#readme",
+  "homepage": "https://github.com/FedericoMosso/PreEntrega3Mosso#readme",
   "keywords": [],
   "description": "",
   "devDependencies": {
