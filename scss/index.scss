@@ -4,15 +4,14 @@
 
 @import './misc/variables';
 
-
-//* PARTIALS */
-
-@import './partials/header';
-@import './partials/footer';
-
-
 // *PAGES */
-
+@import './pages/inicio';
 @import './pages/index';
 @import './pages/galeria';
 @import './pages/contacto';
+
+//* PARTIALS */
+@import './partials/header';
+@import "./partials/footer";
+
+
